@@ -16,3 +16,14 @@ print(check1)
 print(check2)
 
 print(x1,x2,x3)
+
+#task 2
+import math
+
+c= 2000 #cash flow per period 
+i= 0.05 #interst rate 
+n= 7 #number of payment 
+
+FV= c*((math.pow(1+i,n)-1)/i)
+
+print(FV)
